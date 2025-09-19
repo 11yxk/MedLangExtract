@@ -1,4 +1,4 @@
-# 🚀 RobustMedSeg Quick Start Guide
+# 🚀 RobustMedSeg
 
 > Robust medical image segmentation based on structured text extraction, the code will be updated progressively.
 
