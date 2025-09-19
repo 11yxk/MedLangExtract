@@ -1,0 +1,31 @@
+TRAIN:
+  train_batch_size: 32
+  lr: 0.0003
+
+  valid_batch_size: 8
+
+  image_size: [224,224]
+
+  min_epochs: 20
+  max_epochs: 100
+  patience: 20
+
+  device: 1
+
+  model_save_path: ./save_model
+  model_save_filename: medseg_mask0
+
+MODEL:
+  bert_type: ./lib/BiomedVLP-CXR-BERT-specialized
+  vision_type: ./lib/convnext-tiny-224
+  project_dim: 768
+
+DATA:
+  train_json_path: ./data/text_annotations/kvasir_text/kvasir_polyp_progressive_train.json
+  val_json_path: ./data/text_annotations/kvasir_text/kvasir_polyp_progressive_val.json
+  test_json_path: ./data/text_annotations/kvasir_text/kvasir_polyp_progressive_test.json
+  
+  root_path: ./data/Kvasir-SEG
+  
+  # Progressive learning settings
+  progressive_level: P5
