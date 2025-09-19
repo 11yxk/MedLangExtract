@@ -1,0 +1,602 @@
+[
+  {
+    "segment_id": "cju2rqo702wpx0855fn7d5cxh",
+    "img_name": "cju2rqo702wpx0855fn7d5cxh.jpg",
+    "mask_name": "cju2rqo702wpx0855fn7d5cxh.jpg",
+    "text": "[region_1] region_entity: polyp, size: diminished, color: pink, shape: circle, location: inwards right of the image"
+  },
+  {
+    "segment_id": "cju5von04litr08718j8po40a",
+    "img_name": "cju5von04litr08718j8po40a.jpg",
+    "mask_name": "cju5von04litr08718j8po40a.jpg",
+    "text": "[region_1] region_entity: polyp, size: pocket-size, color: white, shape: round, location: inward right of the range of a function"
+  },
+  {
+    "segment_id": "cju1cyjb5qtie0993njqne9m3",
+    "img_name": "cju1cyjb5qtie0993njqne9m3.jpg",
+    "mask_name": "cju1cyjb5qtie0993njqne9m3.jpg",
+    "text": "[region_1] region_entity: polyp, size: none, color: white, shape: round, location: right of the image"
+  },
+  {
+    "segment_id": "cju7ebe962hr409872ovibahw",
+    "img_name": "cju7ebe962hr409872ovibahw.jpg",
+    "mask_name": "cju7ebe962hr409872ovibahw.jpg",
+    "text": "[region_1] region_entity: polyp, size: large, color: white, shape: round, location: summit left, top of the image"
+  },
+  {
+    "segment_id": "cju8dn0c3u2v50801k8rvq02f",
+    "img_name": "cju8dn0c3u2v50801k8rvq02f.jpg",
+    "mask_name": "cju8dn0c3u2v50801k8rvq02f.jpg",
+    "text": "[region_1] region_entity: polyp, size: large, color: white, shape: none, location: none"
+  },
+  {
+    "segment_id": "cju843yjskhq30818qre4rwm2",
+    "img_name": "cju843yjskhq30818qre4rwm2.jpg",
+    "mask_name": "cju843yjskhq30818qre4rwm2.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: white, shape: oval, location: right of the image"
+  },
+  {
+    "segment_id": "cju43b8daly4408170e5ev06g",
+    "img_name": "cju43b8daly4408170e5ev06g.jpg",
+    "mask_name": "cju43b8daly4408170e5ev06g.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: center of the image"
+  },
+  {
+    "segment_id": "cju5xkwzxmf0z0818gk4xabdm",
+    "img_name": "cju5xkwzxmf0z0818gk4xabdm.jpg",
+    "mask_name": "cju5xkwzxmf0z0818gk4xabdm.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: orange, shape: round, location: center of the mental image"
+  },
+  {
+    "segment_id": "cju1cj3f0qi5n0993ut8f49rj",
+    "img_name": "cju1cj3f0qi5n0993ut8f49rj.jpg",
+    "mask_name": "cju1cj3f0qi5n0993ut8f49rj.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: bottom of the image"
+  },
+  {
+    "segment_id": "cju88v2f9oi8w0871hx9auh01",
+    "img_name": "cju88v2f9oi8w0871hx9auh01.jpg",
+    "mask_name": "cju88v2f9oi8w0871hx9auh01.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: tan, shape: prolate, location: midpoint of the image"
+  },
+  {
+    "segment_id": "cju83syhdk6gs0801rf1rekdl",
+    "img_name": "cju83syhdk6gs0801rf1rekdl.jpg",
+    "mask_name": "cju83syhdk6gs0801rf1rekdl.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: clear right of the image"
+  },
+  {
+    "segment_id": "cju1djtprvd7b0988thwwrg09",
+    "img_name": "cju1djtprvd7b0988thwwrg09.jpg",
+    "mask_name": "cju1djtprvd7b0988thwwrg09.jpg",
+    "text": "[region_1] region_entity: polyp, size: none, color: white, shape: round, location: bottom right of the image"
+  },
+  {
+    "segment_id": "cju422cm8lfxn0818ojicxejb",
+    "img_name": "cju422cm8lfxn0818ojicxejb.jpg",
+    "mask_name": "cju422cm8lfxn0818ojicxejb.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: none, shape: none, location: pinch lead, freighter of the envision"
+  },
+  {
+    "segment_id": "cju6uzxk0v83p0801rcwnexdu",
+    "img_name": "cju6uzxk0v83p0801rcwnexdu.jpg",
+    "mask_name": "cju6uzxk0v83p0801rcwnexdu.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: clear left, center of the image"
+  },
+  {
+    "segment_id": "cju0u82z3cuma0835wlxrnrjv",
+    "img_name": "cju0u82z3cuma0835wlxrnrjv.jpg",
+    "mask_name": "cju0u82z3cuma0835wlxrnrjv.jpg",
+    "text": "[region_1] region_entity: polyp, size: none, color: yellow, shape: pear-shaped, location: right of the image"
+  },
+  {
+    "segment_id": "ck2bxpfgxu2mk0748gsh7xelu",
+    "img_name": "ck2bxpfgxu2mk0748gsh7xelu.jpg",
+    "mask_name": "ck2bxpfgxu2mk0748gsh7xelu.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: white, shape: none, location: bottom right of the image"
+  },
+  {
+    "segment_id": "cju2zy1e49pqk0878t6ncqn12",
+    "img_name": "cju2zy1e49pqk0878t6ncqn12.jpg",
+    "mask_name": "cju2zy1e49pqk0878t6ncqn12.jpg",
+    "text": "[region_1] region_entity: polyp, size: modest, color: brown, shape: circle, location: bottom right of the image"
+  },
+  {
+    "segment_id": "cju3128yi0rpu0988o4oo5n8n",
+    "img_name": "cju3128yi0rpu0988o4oo5n8n.jpg",
+    "mask_name": "cju3128yi0rpu0988o4oo5n8n.jpg",
+    "text": "[region_1] region_entity: polyp, size: pocket-size, color: white, shape: oval, location: right of the image"
+  },
+  {
+    "segment_id": "cju8828oxnool0801qno9luhr",
+    "img_name": "cju8828oxnool0801qno9luhr.jpg",
+    "mask_name": "cju8828oxnool0801qno9luhr.jpg",
+    "text": "[region_1] region_entity: polyp, size: intermediate, color: yellow, shape: round, location: right of the image"
+  },
+  {
+    "segment_id": "cju7crgxa28550755wbsgqkel",
+    "img_name": "cju7crgxa28550755wbsgqkel.jpg",
+    "mask_name": "cju7crgxa28550755wbsgqkel.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: inwards heart of the image"
+  },
+  {
+    "segment_id": "cju85bf1algsq0871y9gtlq97",
+    "img_name": "cju85bf1algsq0871y9gtlq97.jpg",
+    "mask_name": "cju85bf1algsq0871y9gtlq97.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: none, shape: none, location: center of the image"
+  },
+  {
+    "segment_id": "cju890guyoiti098753yg6cdu",
+    "img_name": "cju890guyoiti098753yg6cdu.jpg",
+    "mask_name": "cju890guyoiti098753yg6cdu.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: right of the image"
+  },
+  {
+    "segment_id": "cju2y8s56ymqr083541ggdsml",
+    "img_name": "cju2y8s56ymqr083541ggdsml.jpg",
+    "mask_name": "cju2y8s56ymqr083541ggdsml.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: circle, location: right of the project"
+  },
+  {
+    "segment_id": "cju7cufm7298k0755j09uf3of",
+    "img_name": "cju7cufm7298k0755j09uf3of.jpg",
+    "mask_name": "cju7cufm7298k0755j09uf3of.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: orange, shape: round, location: center of the image"
+  },
+  {
+    "segment_id": "cju1c8ffau5770835g0g343o8",
+    "img_name": "cju1c8ffau5770835g0g343o8.jpg",
+    "mask_name": "cju1c8ffau5770835g0g343o8.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: white, shape: triangular, location: bottom of the image"
+  },
+  {
+    "segment_id": "cju7dn24o296i09871qfxb8s2",
+    "img_name": "cju7dn24o296i09871qfxb8s2.jpg",
+    "mask_name": "cju7dn24o296i09871qfxb8s2.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: yellow, shape: flesh out, location: right of the image"
+  },
+  {
+    "segment_id": "cju3v11mrgwwb0755u242ygye",
+    "img_name": "cju3v11mrgwwb0755u242ygye.jpg",
+    "mask_name": "cju3v11mrgwwb0755u242ygye.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: none, shape: round, location: in center of the image"
+  },
+  {
+    "segment_id": "cju2z2x3nvd3c099350zgty7w",
+    "img_name": "cju2z2x3nvd3c099350zgty7w.jpg",
+    "mask_name": "cju2z2x3nvd3c099350zgty7w.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: white, shape: ovate, location: center of the double"
+  },
+  {
+    "segment_id": "cju5bj926aiec07559rshy4wa",
+    "img_name": "cju5bj926aiec07559rshy4wa.jpg",
+    "mask_name": "cju5bj926aiec07559rshy4wa.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: white, shape: oval, location: bottom right of the image"
+  },
+  {
+    "segment_id": "cju8c3xs7sauj0801ieyzezr5",
+    "img_name": "cju8c3xs7sauj0801ieyzezr5.jpg",
+    "mask_name": "cju8c3xs7sauj0801ieyzezr5.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: tan, shape: round, location: inward center of the image"
+  },
+  {
+    "segment_id": "cju77re6fz5bb0817vp9redjg",
+    "img_name": "cju77re6fz5bb0817vp9redjg.jpg",
+    "mask_name": "cju77re6fz5bb0817vp9redjg.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: brown, shape: band, location: center of the image"
+  },
+  {
+    "segment_id": "cju8a56vxpy780850r45yu4wk",
+    "img_name": "cju8a56vxpy780850r45yu4wk.jpg",
+    "mask_name": "cju8a56vxpy780850r45yu4wk.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: lily-white, shape: heart, location: center of the image"
+  },
+  {
+    "segment_id": "cju7dz5yy2i7z0801ausi7rna",
+    "img_name": "cju7dz5yy2i7z0801ausi7rna.jpg",
+    "mask_name": "cju7dz5yy2i7z0801ausi7rna.jpg",
+    "text": "[region_1] region_entity: polyp, size: none, color: pink, shape: round, location: in center of the image"
+  },
+  {
+    "segment_id": "cju2xjz2ju8pe0993ysv9wg17",
+    "img_name": "cju2xjz2ju8pe0993ysv9wg17.jpg",
+    "mask_name": "cju2xjz2ju8pe0993ysv9wg17.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: orange, shape: round, location: center of the paradigm"
+  },
+  {
+    "segment_id": "cju5ygh1zmmdi0755uod5e17i",
+    "img_name": "cju5ygh1zmmdi0755uod5e17i.jpg",
+    "mask_name": "cju5ygh1zmmdi0755uod5e17i.jpg",
+    "text": "[region_1] region_entity: polyp, size: none, color: none, shape: round, location: none"
+  },
+  {
+    "segment_id": "cju5bhv81abur0850ean02atv",
+    "img_name": "cju5bhv81abur0850ean02atv.jpg",
+    "mask_name": "cju5bhv81abur0850ean02atv.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: right of the image"
+  },
+  {
+    "segment_id": "cju5cky5xb0ay0801oxet697t",
+    "img_name": "cju5cky5xb0ay0801oxet697t.jpg",
+    "mask_name": "cju5cky5xb0ay0801oxet697t.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: brown, shape: none, location: right of the image"
+  },
+  {
+    "segment_id": "cju43jcqim2cp08172dvjvyui",
+    "img_name": "cju43jcqim2cp08172dvjvyui.jpg",
+    "mask_name": "cju43jcqim2cp08172dvjvyui.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: white, shape: round, location: inwards decently of the epitome"
+  },
+  {
+    "segment_id": "cju5hl8nee8a40755fm8qjj0o",
+    "img_name": "cju5hl8nee8a40755fm8qjj0o.jpg",
+    "mask_name": "cju5hl8nee8a40755fm8qjj0o.jpg",
+    "text": "[region_1] region_entity: polyp, size: minuscule, color: white, shape: elliptical, location: right of the image"
+  },
+  {
+    "segment_id": "cju1d96gsv62d09881b3wecw2",
+    "img_name": "cju1d96gsv62d09881b3wecw2.jpg",
+    "mask_name": "cju1d96gsv62d09881b3wecw2.jpg",
+    "text": "[region_1] region_entity: polyp, size: average, color: none, shape: semicircle, location: right of the figure"
+  },
+  {
+    "segment_id": "cju2qh5le1ock0878oahaql7d",
+    "img_name": "cju2qh5le1ock0878oahaql7d.jpg",
+    "mask_name": "cju2qh5le1ock0878oahaql7d.jpg",
+    "text": "[region_1] region_entity: polyp, size: intermediate, color: white, shape: river heart, location: bottom right of the image"
+  },
+  {
+    "segment_id": "cju7dbppn28nx085097654msi",
+    "img_name": "cju7dbppn28nx085097654msi.jpg",
+    "mask_name": "cju7dbppn28nx085097654msi.jpg",
+    "text": "[region_1] region_entity: polyp, size: average, color: brown, shape: round, location: inch right of the image"
+  },
+  {
+    "segment_id": "cju8chdlqsu620755azjty1tj",
+    "img_name": "cju8chdlqsu620755azjty1tj.jpg",
+    "mask_name": "cju8chdlqsu620755azjty1tj.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: brown, shape: round, location: right of the image"
+  },
+  {
+    "segment_id": "cju183od81ff608017ekzif89",
+    "img_name": "cju183od81ff608017ekzif89.jpg",
+    "mask_name": "cju183od81ff608017ekzif89.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: tan, shape: round, location: right, bottom of the image"
+  },
+  {
+    "segment_id": "cju2ro5jqsy680988pi6qsujw",
+    "img_name": "cju2ro5jqsy680988pi6qsujw.jpg",
+    "mask_name": "cju2ro5jqsy680988pi6qsujw.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: top left, right of the image"
+  },
+  {
+    "segment_id": "cju2hlm19vjjf0801o69qnber",
+    "img_name": "cju2hlm19vjjf0801o69qnber.jpg",
+    "mask_name": "cju2hlm19vjjf0801o69qnber.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: tweed, shape: round, location: left of the image"
+  },
+  {
+    "segment_id": "cju2u4pymvc720988wsxrmi84",
+    "img_name": "cju2u4pymvc720988wsxrmi84.jpg",
+    "mask_name": "cju2u4pymvc720988wsxrmi84.jpg",
+    "text": "[region_1] region_entity: polyp, size: tumid, color: yellow, shape: round, location: left of the range"
+  },
+  {
+    "segment_id": "cju2tzypl4wss0799ow05oxb9",
+    "img_name": "cju2tzypl4wss0799ow05oxb9.jpg",
+    "mask_name": "cju2tzypl4wss0799ow05oxb9.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: top left, bottom right of the image"
+  },
+  {
+    "segment_id": "cju1dia8hvc6v098827mgffnm",
+    "img_name": "cju1dia8hvc6v098827mgffnm.jpg",
+    "mask_name": "cju1dia8hvc6v098827mgffnm.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: white, shape: circle, location: right of the image"
+  },
+  {
+    "segment_id": "cju5wqonpm0e60801z88ewmy1",
+    "img_name": "cju5wqonpm0e60801z88ewmy1.jpg",
+    "mask_name": "cju5wqonpm0e60801z88ewmy1.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: white, shape: sessile, location: right of the image"
+  },
+  {
+    "segment_id": "cju1egh885m1l0855ci1lt37c",
+    "img_name": "cju1egh885m1l0855ci1lt37c.jpg",
+    "mask_name": "cju1egh885m1l0855ci1lt37c.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: white, shape: circle, location: bottom of the image"
+  },
+  {
+    "segment_id": "cju7fd6yt2p740987wkr8exo1",
+    "img_name": "cju7fd6yt2p740987wkr8exo1.jpg",
+    "mask_name": "cju7fd6yt2p740987wkr8exo1.jpg",
+    "text": "[region_1] region_entity: polyp, size: minor, color: white, shape: circular, location: right of the image"
+  },
+  {
+    "segment_id": "cju7f5ghb2r5s0801chwkxxh9",
+    "img_name": "cju7f5ghb2r5s0801chwkxxh9.jpg",
+    "mask_name": "cju7f5ghb2r5s0801chwkxxh9.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: yellow, shape: stave, location: center of the image"
+  },
+  {
+    "segment_id": "cju7dlk532dsh0871zvr6qz0r",
+    "img_name": "cju7dlk532dsh0871zvr6qz0r.jpg",
+    "mask_name": "cju7dlk532dsh0871zvr6qz0r.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: powerful of the image"
+  },
+  {
+    "segment_id": "cju8ca4geseia0850i2ru11hw",
+    "img_name": "cju8ca4geseia0850i2ru11hw.jpg",
+    "mask_name": "cju8ca4geseia0850i2ru11hw.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: livid, shape: round, location: top right of the image"
+  },
+  {
+    "segment_id": "cju2zo0fwzv580988qlijd2xa",
+    "img_name": "cju2zo0fwzv580988qlijd2xa.jpg",
+    "mask_name": "cju2zo0fwzv580988qlijd2xa.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: brown, shape: oval, location: top right, center of the image"
+  },
+  {
+    "segment_id": "cju85rkbnlo1c08503uxcpax1",
+    "img_name": "cju85rkbnlo1c08503uxcpax1.jpg",
+    "mask_name": "cju85rkbnlo1c08503uxcpax1.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: red, shape: round, location: top left, bottom of the image"
+  },
+  {
+    "segment_id": "cju2tqfgw4oat0799rn0g5b2z",
+    "img_name": "cju2tqfgw4oat0799rn0g5b2z.jpg",
+    "mask_name": "cju2tqfgw4oat0799rn0g5b2z.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: brown, shape: elliptical, location: right of the image"
+  },
+  {
+    "segment_id": "cju3y79ofj3va0871uqfb1mzo",
+    "img_name": "cju3y79ofj3va0871uqfb1mzo.jpg",
+    "mask_name": "cju3y79ofj3va0871uqfb1mzo.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: yellow, shape: round, location: inwards eye of the effigy"
+  },
+  {
+    "segment_id": "cju30df2j09dd08351ayx2t6w",
+    "img_name": "cju30df2j09dd08351ayx2t6w.jpg",
+    "mask_name": "cju30df2j09dd08351ayx2t6w.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: pink, shape: round, location: midpoint of the persona"
+  },
+  {
+    "segment_id": "cju8b542nr81x0871uxnkm9ih",
+    "img_name": "cju8b542nr81x0871uxnkm9ih.jpg",
+    "mask_name": "cju8b542nr81x0871uxnkm9ih.jpg",
+    "text": "[region_1] region_entity: polyp, size: none, color: white, shape: circular, location: none"
+  },
+  {
+    "segment_id": "cju7eueum2oqn0850rodmx8zo",
+    "img_name": "cju7eueum2oqn0850rodmx8zo.jpg",
+    "mask_name": "cju7eueum2oqn0850rodmx8zo.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: tan, shape: round, location: bottom of the image"
+  },
+  {
+    "segment_id": "cju7atnm31if40817pqclnjer",
+    "img_name": "cju7atnm31if40817pqclnjer.jpg",
+    "mask_name": "cju7atnm31if40817pqclnjer.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: top left, bottom of the image"
+  },
+  {
+    "segment_id": "cju7g7ba42z310987bqzbi2bq",
+    "img_name": "cju7g7ba42z310987bqzbi2bq.jpg",
+    "mask_name": "cju7g7ba42z310987bqzbi2bq.jpg",
+    "text": "[region_1] region_entity: polyp, size: large, color: yellow, shape: round, location: top left, right of the image"
+  },
+  {
+    "segment_id": "cju77g99iyxc00817zqi2ppor",
+    "img_name": "cju77g99iyxc00817zqi2ppor.jpg",
+    "mask_name": "cju77g99iyxc00817zqi2ppor.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: right of the image"
+  },
+  {
+    "segment_id": "cju45v0pungu40871acnwtmu5",
+    "img_name": "cju45v0pungu40871acnwtmu5.jpg",
+    "mask_name": "cju45v0pungu40871acnwtmu5.jpg",
+    "text": "[region_1] region_entity: polyp, size: intermediate, color: yellowish, shape: none, location: center of the image"
+  },
+  {
+    "segment_id": "cju7bduyq1rjf08719giru9ho",
+    "img_name": "cju7bduyq1rjf08719giru9ho.jpg",
+    "mask_name": "cju7bduyq1rjf08719giru9ho.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: right of the image"
+  },
+  {
+    "segment_id": "cju14pxbaoksp0835qzorx6g6",
+    "img_name": "cju14pxbaoksp0835qzorx6g6.jpg",
+    "mask_name": "cju14pxbaoksp0835qzorx6g6.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: none, shape: round, location: tip of the image"
+  },
+  {
+    "segment_id": "cju5enq1tcn1i0755hnkon787",
+    "img_name": "cju5enq1tcn1i0755hnkon787.jpg",
+    "mask_name": "cju5enq1tcn1i0755hnkon787.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: bloodless, shape: circle, location: center of the ikon"
+  },
+  {
+    "segment_id": "cjyzk8qieoboa0848ogj51wwm",
+    "img_name": "cjyzk8qieoboa0848ogj51wwm.jpg",
+    "mask_name": "cjyzk8qieoboa0848ogj51wwm.jpg",
+    "text": "[region_1] region_entity: polyp, size: large, color: white, shape: round, location: center of the mental image"
+  },
+  {
+    "segment_id": "cju30ajhw09sx0988qyahx9s8",
+    "img_name": "cju30ajhw09sx0988qyahx9s8.jpg",
+    "mask_name": "cju30ajhw09sx0988qyahx9s8.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, average, color: none, shape: round, location: top left, right, center of the image"
+  },
+  {
+    "segment_id": "cju5f8hxdcxxn08188obby0ea",
+    "img_name": "cju5f8hxdcxxn08188obby0ea.jpg",
+    "mask_name": "cju5f8hxdcxxn08188obby0ea.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: oval, location: right of the image"
+  },
+  {
+    "segment_id": "cju2lyynuymli0855g7fxgbhe",
+    "img_name": "cju2lyynuymli0855g7fxgbhe.jpg",
+    "mask_name": "cju2lyynuymli0855g7fxgbhe.jpg",
+    "text": "[region_1] region_entity: polyp, size: none, color: brown, shape: encircle, location: marrow of the image"
+  },
+  {
+    "segment_id": "cju1b0y2e396p08558ois175d",
+    "img_name": "cju1b0y2e396p08558ois175d.jpg",
+    "mask_name": "cju1b0y2e396p08558ois175d.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: brown, shape: rotary, location: nerve center of the icon"
+  },
+  {
+    "segment_id": "cju85je7vlht70817c9jcjwi4",
+    "img_name": "cju85je7vlht70817c9jcjwi4.jpg",
+    "mask_name": "cju85je7vlht70817c9jcjwi4.jpg",
+    "text": "[region_1] region_entity: polyp, size: large, color: white, shape: ovate, location: inwards top left, center of the image"
+  },
+  {
+    "segment_id": "cju3v3ac9gyz30755hfqwyp1i",
+    "img_name": "cju3v3ac9gyz30755hfqwyp1i.jpg",
+    "mask_name": "cju3v3ac9gyz30755hfqwyp1i.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: tan, shape: circular, location: top of the image"
+  },
+  {
+    "segment_id": "cju43mkj9m8wb0871qiadahub",
+    "img_name": "cju43mkj9m8wb0871qiadahub.jpg",
+    "mask_name": "cju43mkj9m8wb0871qiadahub.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: egg-shaped, location: inch inwardness of the image"
+  },
+  {
+    "segment_id": "cju5hi52odyf90817prvcwg45",
+    "img_name": "cju5hi52odyf90817prvcwg45.jpg",
+    "mask_name": "cju5hi52odyf90817prvcwg45.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: none, shape: round, location: in right of the image"
+  },
+  {
+    "segment_id": "cju3ul8dogf1z09872y2ecowp",
+    "img_name": "cju3ul8dogf1z09872y2ecowp.jpg",
+    "mask_name": "cju3ul8dogf1z09872y2ecowp.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: white, shape: triangular, location: right of the image"
+  },
+  {
+    "segment_id": "cju83k8fyjsxr0817d6nxs6r4",
+    "img_name": "cju83k8fyjsxr0817d6nxs6r4.jpg",
+    "mask_name": "cju83k8fyjsxr0817d6nxs6r4.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: none, location: bottom of the image"
+  },
+  {
+    "segment_id": "cju8b0jr0r2oi0801jiquetd5",
+    "img_name": "cju8b0jr0r2oi0801jiquetd5.jpg",
+    "mask_name": "cju8b0jr0r2oi0801jiquetd5.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: jaundiced, shape: oval, location: bottom right of the range"
+  },
+  {
+    "segment_id": "cju1fmsyf6gxb0801cimx2gle",
+    "img_name": "cju1fmsyf6gxb0801cimx2gle.jpg",
+    "mask_name": "cju1fmsyf6gxb0801cimx2gle.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: pink, shape: round, location: bottom right of the image"
+  },
+  {
+    "segment_id": "cju2uzabhs6er0993x3aaf87p",
+    "img_name": "cju2uzabhs6er0993x3aaf87p.jpg",
+    "mask_name": "cju2uzabhs6er0993x3aaf87p.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: tweed, shape: heart, location: none"
+  },
+  {
+    "segment_id": "cju8abobpqbir08189u01huru",
+    "img_name": "cju8abobpqbir08189u01huru.jpg",
+    "mask_name": "cju8abobpqbir08189u01huru.jpg",
+    "text": "[region_1] region_entity: polyp, size: none, color: yellow, shape: round, location: top left, bottom of the image"
+  },
+  {
+    "segment_id": "cju784jpdzeae0987q5ypq883",
+    "img_name": "cju784jpdzeae0987q5ypq883.jpg",
+    "mask_name": "cju784jpdzeae0987q5ypq883.jpg",
+    "text": "[region_1] region_entity: polyp, size: none, color: brown, shape: round, location: in top left, rear right of the image"
+  },
+  {
+    "segment_id": "cju8bn7m2rmm70817hgxpb1uq",
+    "img_name": "cju8bn7m2rmm70817hgxpb1uq.jpg",
+    "mask_name": "cju8bn7m2rmm70817hgxpb1uq.jpg",
+    "text": "[region_1] region_entity: polyp, size: none, color: none, shape: round, location: inch right of the persona"
+  },
+  {
+    "segment_id": "cju30525w04r10835ygp257sb",
+    "img_name": "cju30525w04r10835ygp257sb.jpg",
+    "mask_name": "cju30525w04r10835ygp257sb.jpg",
+    "text": "[region_1] region_entity: polyp, size: none, color: white, shape: round, location: right field of the image"
+  },
+  {
+    "segment_id": "cju5hqz50e7o90850e0prlpa0",
+    "img_name": "cju5hqz50e7o90850e0prlpa0.jpg",
+    "mask_name": "cju5hqz50e7o90850e0prlpa0.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: yellow, shape: rectangle, location: center of the image"
+  },
+  {
+    "segment_id": "cju1fr4etsmrr09933u4t4aql",
+    "img_name": "cju1fr4etsmrr09933u4t4aql.jpg",
+    "mask_name": "cju1fr4etsmrr09933u4t4aql.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: brown, shape: round, location: top left, right of the trope"
+  },
+  {
+    "segment_id": "cju2xlcqxy9c60988vjacdznb",
+    "img_name": "cju2xlcqxy9c60988vjacdznb.jpg",
+    "mask_name": "cju2xlcqxy9c60988vjacdznb.jpg",
+    "text": "[region_1] region_entity: polyp, size: intermediate, color: white, shape: labialize, location: top of the image"
+  },
+  {
+    "segment_id": "cju300m3s04fg0988uzupuf7z",
+    "img_name": "cju300m3s04fg0988uzupuf7z.jpg",
+    "mask_name": "cju300m3s04fg0988uzupuf7z.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: top of the image"
+  },
+  {
+    "segment_id": "cju41lojblbs307555jdci937",
+    "img_name": "cju41lojblbs307555jdci937.jpg",
+    "mask_name": "cju41lojblbs307555jdci937.jpg",
+    "text": "[region_1] region_entity: polyp, size: diminished, color: white, shape: rotary, location: kernel of the icon"
+  },
+  {
+    "segment_id": "cju7bmi1v1pnj0987pa52jjok",
+    "img_name": "cju7bmi1v1pnj0987pa52jjok.jpg",
+    "mask_name": "cju7bmi1v1pnj0987pa52jjok.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: yellow, shape: round, location: center of the image"
+  },
+  {
+    "segment_id": "cju6v6g6kvdw007552x6mb0po",
+    "img_name": "cju6v6g6kvdw007552x6mb0po.jpg",
+    "mask_name": "cju6v6g6kvdw007552x6mb0po.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: circle, location: top left, bottom of the image"
+  },
+  {
+    "segment_id": "cju2rmd2rsw9g09888hh1efu0",
+    "img_name": "cju2rmd2rsw9g09888hh1efu0.jpg",
+    "mask_name": "cju2rmd2rsw9g09888hh1efu0.jpg",
+    "text": "[region_1] region_entity: polyp, size: pocket-size, color: brown, shape: none, location: whirligig of the image"
+  },
+  {
+    "segment_id": "cju8aeei7q8k308173n9y4klv",
+    "img_name": "cju8aeei7q8k308173n9y4klv.jpg",
+    "mask_name": "cju8aeei7q8k308173n9y4klv.jpg",
+    "text": "[region_1] region_entity: polyp, size: small, color: white, shape: round, location: bottom of the image"
+  },
+  {
+    "segment_id": "cju34ouumcznz07996gg1xq7v",
+    "img_name": "cju34ouumcznz07996gg1xq7v.jpg",
+    "mask_name": "cju34ouumcznz07996gg1xq7v.jpg",
+    "text": "[region_1] region_entity: polyp, size: none, color: white, shape: circle, location: center of the image"
+  },
+  {
+    "segment_id": "cju7dwe282dc309876rco45ts",
+    "img_name": "cju7dwe282dc309876rco45ts.jpg",
+    "mask_name": "cju7dwe282dc309876rco45ts.jpg",
+    "text": "[region_1] region_entity: polyp, size: large, color: white, shape: none, location: none"
+  },
+  {
+    "segment_id": "cju77k828z46w0871r0avuoo9",
+    "img_name": "cju77k828z46w0871r0avuoo9.jpg",
+    "mask_name": "cju77k828z46w0871r0avuoo9.jpg",
+    "text": "[region_1] region_entity: polyp, size: medium, color: white, shape: round, location: center of the persona"
+  },
+  {
+    "segment_id": "cju8bh8surexp0987o5pzklk1",
+    "img_name": "cju8bh8surexp0987o5pzklk1.jpg",
+    "mask_name": "cju8bh8surexp0987o5pzklk1.jpg",
+    "text": "[region_1] region_entity: polyp, size: none, color: brown, shape: oval, location: nitty-gritty of the image"
+  }
+]
