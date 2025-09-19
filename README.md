@@ -1,142 +1,138 @@
-# 🚀 RobustMedSeg 快速开始指南
+# 🚀 RobustMedSeg Quick Start Guide
 
-> 基于结构化文本提取的鲁棒医学图像分割
+> Robust medical image segmentation based on structured text extraction, the code will be updated progressively.
 
-## 📋 前置条件
+## 📋 Prerequisites
 
-1. **Python环境**: Python 3.8+
-2. **GPU支持**: 建议使用CUDA GPU进行训练
-3. **存储空间**: 至少3GB可用空间
-4. **Google API**: LangExtract需要Google API密钥
+ **Google API**: Google API key required for LangExtract
 
-## ⚡ 快速安装
+## ⚡ Quick Installation
 
 ```bash
-# 1. 克隆项目
+# 1. Clone the repository
 git clone https://github.com/your-username/RobustMedSeg.git
 cd RobustMedSeg
 
-# 2. 安装依赖
+# 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. 安装LangExtract
+# 3. Install LangExtract
 pip install langextract
 
-# 4. 验证数据
+# 4. Validate data
 python examples/validate_data.py
 ```
 
-## 🔑 Google API配置
+## 🔑 Google API Configuration
 
 ```bash
-# 1. 获取API密钥
-# 访问 https://console.cloud.google.com/
-# 启用Generative AI API
-# 创建API密钥
+# 1. Get API key
+# Visit https://console.cloud.google.com/
+# Enable Generative AI API
+# Create API key
 
-# 2. 配置extract.py
-# 编辑extract.py中的api_key变量
+# 2. Configure extract.py
+# Edit the api_key variable in extract.py
 api_key = 'YOUR_GOOGLE_API_KEY'
 ```
 
-## 📊 数据处理流程
+## 📊 Data Processing Pipeline
 
-### 1. 结构化文本提取
+### 1. Structured Text Extraction
 
 ```bash
-# 使用LangExtract处理原始数据
+# Use LangExtract to process original data
 python extract.py
 
-# 这会将非结构化文本转换为结构化表示
-# 输入: "one medium yellow round polyp located in right of the image"
-# 输出: "[region_1] region_entity: polyp, size: medium, color: yellow, shape: round, location: right of the image"
+# This converts unstructured text to structured representation
+# Input: "one medium yellow round polyp located in right of the image"
+# Output: "[region_1] region_entity: polyp, size: medium, color: yellow, shape: round, location: right of the image"
 ```
 
-### 2. 数据验证
+### 2. Data Validation
 
 ```bash
-# 验证所有数据集
+# Validate all datasets
 python examples/validate_data.py
 
-# 输出: 11个JSON文件，3个有效的progressive learning文件
+# Output: 11 JSON files, 3 valid progressive learning files
 ```
 
-## 🎯 模型训练
+## 🎯 Model Training
 
 ```bash
-# 基础训练 (使用结构化数据)
+# Basic training (using structured data)
 python train.py
 
-# 自定义配置
+# Custom configuration
 python train.py --config config/training.yaml
 
-# 监控训练过程
+# Monitor training process
 tensorboard --logdir lightning_logs/
 ```
 
-## 🔬 鲁棒性评估
+## 🔬 Robustness Evaluation
 
 ```bash
-# 运行完整鲁棒性测试
+# Run comprehensive robustness testing
 python examples/robustness_evaluation.py
 
-# 测试结果包括:
-# - 原始测试集性能
-# - 结构化数据性能 (弱/强扰动)
-# - 原始扰动数据性能 (对比)
+# Test results include:
+# - Original test set performance
+# - Structured data performance (weak/strong perturbations)
+# - Original perturbation data performance (comparison)
 ```
 
 
-
-## 📁 数据集结构
+## 📁 Dataset Structure
 
 ```
 data/
-├── original_text_data/     # 原始p0-p9多层级描述
-│   ├── train.json         # 原始训练集
-│   ├── val.json           # 原始验证集
-│   └── test.json          # 原始测试集
-├── text_annotations/       # 结构化标注数据
-│   ├── kvasir_text/       # Progressive learning基础数据
-│   ├── kvasir_aug/        # 结构化增强数据 (4文件)
-│   └── kvasir_ori_aug/    # 原始扰动数据 (4文件)
-└── Kvasir-SEG/            # 图像数据 (需下载)
+├── original_text_data/     # Original p0-p9 multi-level descriptions
+│   ├── train.json         # Original training set
+│   ├── val.json           # Original validation set
+│   └── test.json          # Original test set
+├── text_annotations/       # Structured annotation data
+│   ├── kvasir_text/       # Progressive learning base data
+│   ├── kvasir_aug/        # Structured augmented data (4 files)
+│   └── kvasir_ori_aug/    # Original perturbation data (4 files)
+└── Kvasir-SEG/            # Image data (requires download)
 ```
 
-## 🛠️ 自定义使用
+## 🛠️ Custom Usage
 
-### 适配新的医学领域
+### Adapting to New Medical Domains
 
-1. **修改提取规则**:
+1. **Modify extraction rules**:
 ```python
-# 在extract.py中修改
+# Modify in extract.py
 custom_extraction_classes = [
-    "lesion_type",      # 病变类型
-    "severity",         # 严重程度
-    "texture",          # 纹理特征
-    "anatomical_site"   # 解剖部位
+    "lesion_type",      # Lesion type
+    "severity",         # Severity level
+    "texture",          # Texture features
+    "anatomical_site"   # Anatomical site
 ]
 ```
 
-2. **更新提示描述**:
+2. **Update prompt description**:
 ```python
 custom_prompt = """
 Extract key information for [YOUR_DOMAIN] image analysis...
 """
 ```
 
-### 处理自定义数据
+### Processing Custom Data
 
 ```bash
-# 1. 准备原始JSON数据 (包含详细描述)
-# 2. 配置extract.py路径和API密钥
-# 3. 运行结构化提取
+# 1. Prepare original JSON data (containing detailed descriptions)
+# 2. Configure extract.py paths and API key
+# 3. Run structured extraction
 python extract.py
 
-# 4. 验证输出质量
+# 4. Validate output quality
 python examples/validate_data.py
 
-# 5. 训练鲁棒模型
+# 5. Train robust model
 python train.py
 ```
 
