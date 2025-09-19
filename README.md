@@ -1,91 +1,142 @@
-# LanGuideMedSeg-MICCAI2023
-Pytorch code of MICCAI 2023 Paper-**Ariadne’s Thread : Using Text Prompts to Improve Segmentation of Infected Areas from Chest X-ray images**
-(Early Acceptance-Top 14%)
+# 🚀 RobustMedSeg 快速开始指南
 
-arXiv paper: [https://arxiv.org/abs/2307.03942](https://arxiv.org/abs/2307.03942)
+> 基于结构化文本提取的鲁棒医学图像分割
 
-MICCAI 2023 Conference paper: [https://link.springer.com/chapter/10.1007/978-3-031-43901-8_69](https://link.springer.com/chapter/10.1007/978-3-031-43901-8_69)
+## 📋 前置条件
 
+1. **Python环境**: Python 3.8+
+2. **GPU支持**: 建议使用CUDA GPU进行训练
+3. **存储空间**: 至少3GB可用空间
+4. **Google API**: LangExtract需要Google API密钥
 
-## Framework
+## ⚡ 快速安装
 
-![Framework](./misc/1.png)
+```bash
+# 1. 克隆项目
+git clone https://github.com/your-username/RobustMedSeg.git
+cd RobustMedSeg
 
-## Requirements
-1. Environment  
-The main mandatory dependency versions are as follows:  
-    ```
-    python=3.8  
-    torch=1.12.1  
-    torchvision=0.13.1  
-    pytorch_lightning=1.9.0  
-    torchmetrics=0.10.3  
-    transformers=4.24.0  
-    monai=1.0.1  
-    pandas  
-    einops  
-    ```
+# 2. 安装依赖
+pip install -r requirements.txt
 
-2. (Option)Download the pretrained model of CXR-BERT and ConvNeXt
-   
-   CXR-BERT-specialized see: https://huggingface.co/microsoft/BiomedVLP-CXR-BERT-specialized/tree/main  
-   ConvNeXt-tiny see: https://huggingface.co/facebook/convnext-tiny-224/tree/main
+# 3. 安装LangExtract
+pip install langextract
 
-   Download the file 'pytorch_model.bin' to './lib/BiomedVLP-CXR-BERT-specialized/' and './lib/convnext-tiny-224'  
-   If you want to use local model, just change the `bert_type` and `vision_type` in `/config/training.yaml` to local filefold path.
-   ```
-   ...
-   MODEL:
-     bert_type: ./lib/BiomedVLP-CXR-BERT-specialized
-     vision_type: ./lib/convnext-tiny-224
-   ...
-   ```
-   
-   Or just use these models online:
-   ```
-   url = "microsoft/BiomedVLP-CXR-BERT-specialized"
-   tokenizer = AutoTokenizer.from_pretrained(url,trust_remote_code=True)
-   model = AutoModel.from_pretrained(url, trust_remote_code=True)
-   ```
-   
-
-## Dataset
-1. QaTa-COV19 Dataset(images & segmentation mask)  
-    QaTa-COV19 Dataset See Kaggle: [https://www.kaggle.com/datasets/aysendegerli/qatacov19-dataset](https://www.kaggle.com/datasets/aysendegerli/qatacov19-dataset)
-
-    **We use QaTa-COV19-v2 in our experiments.**
-
-2. QaTa-COV19 Text Annotations(from thrid party)  
-    Check out the related content in LViT: [https://github.com/HUANGLIZI/LViT](https://github.com/HUANGLIZI/LViT)
-
-    **Thanks to Li et al. for their contributions. If you use this dataset, please cite their work.**
-
-## QuickStart
-Our training is implemented based on PyTorch Lightning. Please check the relevant training settings in train.py and config.  
-For example:
-```train_csv_path:./data/QaTa-COV19-v2/prompt/train.csv```
-
-To train a model, please execute:  
-```python train.py```  
-To evaluate a model, please excute:  
-```python evaluate.py```
-
-## Result explain
-Some of you have expressed doubts about the results in *Table 1*, which are different from the std out on the results screen during training.  
-Please note: The results in *Table 1* were obtained on the QaTa-COV19 **test set**. Please run ```evaluate.py``` to obtain the results on the test set instead of referring to the std out on the screen during training, while those results were obtained on the validation set!
-
-![Table](./misc/2.png)
-
-## Citation
-
-If you find our work useful in your research, please consider citing:
+# 4. 验证数据
+python examples/validate_data.py
 ```
-@inproceedings{zhong2023ariadne,
-  title={Ariadne’s Thread: Using Text Prompts to Improve Segmentation of Infected Areas from Chest X-ray Images},
-  author={Zhong, Yi and Xu, Mengqiu and Liang, Kongming and Chen, Kaixin and Wu, Ming},
-  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-  pages={724--733},
-  year={2023},
-  organization={Springer}
-}
+
+## 🔑 Google API配置
+
+```bash
+# 1. 获取API密钥
+# 访问 https://console.cloud.google.com/
+# 启用Generative AI API
+# 创建API密钥
+
+# 2. 配置extract.py
+# 编辑extract.py中的api_key变量
+api_key = 'YOUR_GOOGLE_API_KEY'
 ```
+
+## 📊 数据处理流程
+
+### 1. 结构化文本提取
+
+```bash
+# 使用LangExtract处理原始数据
+python extract.py
+
+# 这会将非结构化文本转换为结构化表示
+# 输入: "one medium yellow round polyp located in right of the image"
+# 输出: "[region_1] region_entity: polyp, size: medium, color: yellow, shape: round, location: right of the image"
+```
+
+### 2. 数据验证
+
+```bash
+# 验证所有数据集
+python examples/validate_data.py
+
+# 输出: 11个JSON文件，3个有效的progressive learning文件
+```
+
+## 🎯 模型训练
+
+```bash
+# 基础训练 (使用结构化数据)
+python train.py
+
+# 自定义配置
+python train.py --config config/training.yaml
+
+# 监控训练过程
+tensorboard --logdir lightning_logs/
+```
+
+## 🔬 鲁棒性评估
+
+```bash
+# 运行完整鲁棒性测试
+python examples/robustness_evaluation.py
+
+# 测试结果包括:
+# - 原始测试集性能
+# - 结构化数据性能 (弱/强扰动)
+# - 原始扰动数据性能 (对比)
+```
+
+
+
+## 📁 数据集结构
+
+```
+data/
+├── original_text_data/     # 原始p0-p9多层级描述
+│   ├── train.json         # 原始训练集
+│   ├── val.json           # 原始验证集
+│   └── test.json          # 原始测试集
+├── text_annotations/       # 结构化标注数据
+│   ├── kvasir_text/       # Progressive learning基础数据
+│   ├── kvasir_aug/        # 结构化增强数据 (4文件)
+│   └── kvasir_ori_aug/    # 原始扰动数据 (4文件)
+└── Kvasir-SEG/            # 图像数据 (需下载)
+```
+
+## 🛠️ 自定义使用
+
+### 适配新的医学领域
+
+1. **修改提取规则**:
+```python
+# 在extract.py中修改
+custom_extraction_classes = [
+    "lesion_type",      # 病变类型
+    "severity",         # 严重程度
+    "texture",          # 纹理特征
+    "anatomical_site"   # 解剖部位
+]
+```
+
+2. **更新提示描述**:
+```python
+custom_prompt = """
+Extract key information for [YOUR_DOMAIN] image analysis...
+"""
+```
+
+### 处理自定义数据
+
+```bash
+# 1. 准备原始JSON数据 (包含详细描述)
+# 2. 配置extract.py路径和API密钥
+# 3. 运行结构化提取
+python extract.py
+
+# 4. 验证输出质量
+python examples/validate_data.py
+
+# 5. 训练鲁棒模型
+python train.py
+```
+
